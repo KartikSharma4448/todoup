@@ -1,45 +1,65 @@
 # CodeUpPath ToDo – Privacy Policy
 
-Effective Date: 2026
+Effective Date: March 2026
 
-CodeUpPath built the CodeUpPath ToDo app as a Free application.  
-This SERVICE is provided by CodeUpPath and is intended for use as is.
+CodeUpPath built the CodeUpPath ToDo application as a productivity and task management service.
 
-## Information Collection and Use
+## Information We Collect
 
-CodeUpPath ToDo does NOT collect, store, or share any personally identifiable information.
+To provide core app functionality, we may collect and store the following information:
 
-All tasks, reminders, and productivity data created inside the app are stored locally on the user's device using local storage/database mechanisms.
+* Name or profile details (if provided during account creation)
+* Email address or authentication identifier
+* Tasks, reminders, assistant-generated drafts, and productivity data
+* App preferences and usage settings
 
-We do not require account registration or login to use the app.
+## Authentication and Backend Services
 
-## Internet and Network Usage
+User authentication is securely handled by **Supabase Authentication**.
+Application data such as tasks and user records are stored in **Supabase PostgreSQL databases**.
 
-This app may require internet permission only for basic app functionality such as updates or external links (if applicable).  
-No personal data is transmitted to CodeUpPath servers.
+## How We Use Your Data
 
-## Third-Party Services
+Collected information is used strictly to:
 
-CodeUpPath ToDo does not use third-party analytics, advertising SDKs, or tracking services.
+* Allow secure login and account management
+* Sync tasks and settings across devices
+* Display dashboards and productivity insights
+* Maintain assistant-generated task suggestions
+* Improve application performance and stability
+
+We do **not sell personal data to third parties.**
+
+## Data Sharing
+
+We do not share personal information with external parties except trusted infrastructure providers required for app functionality (such as Supabase hosting services).
+
+## Data Retention and Deletion
+
+Users can export or delete their data at any time from the app settings.
+Deleting an account will permanently remove associated profile information, tasks, and assistant history from backend systems.
 
 ## Data Security
 
-Since all data is stored locally on the device, users have full control over their data.  
-Uninstalling the app will remove all locally stored data.
+We implement modern security practices including:
 
-## Children's Privacy
+* Authenticated API access
+* Row Level Security (RLS) policies
+* Encrypted network communication (HTTPS)
+* Environment-protected credentials
 
-This app is not specifically directed toward children under the age of 13.  
-We do not knowingly collect personal information from children.
+## Children’s Privacy
 
-## Changes to This Privacy Policy
+This application is not specifically directed toward children under 13.
+We do not knowingly collect personal data from children.
 
-We may update this Privacy Policy in future versions of the app.  
-Users are advised to review this page periodically for any changes.
+## Changes to This Policy
+
+We may update this Privacy Policy periodically. Users are advised to review it regularly.
 
 ## Contact Us
 
-If you have any questions or suggestions about this Privacy Policy, contact us at:
+For privacy-related requests or support:
 
-Email: codeuppath@gmail.com  
+Email: [codeuppath@gmail.com](mailto:codeuppath@gmail.com)
 Brand: CodeUpPath
